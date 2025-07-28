@@ -85,6 +85,13 @@ color: #7cf03d;
         display: none;
     }
  }
+ .home-info h2 span::before{
+    content: attr(display-text);
+    position: absolute;
+    width: 0;
+    border-right: 2px solid #7cf03d;
+    color: #7cf03d;
+ }
 .home-info p{
     font-size: 16px;
     margin: 10px 0 24px;
